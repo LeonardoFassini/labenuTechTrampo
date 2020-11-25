@@ -5,8 +5,6 @@ interface VSeparatorProps {
   small?: boolean;
 }
 
-export const VSeparator = styled.p`
-  padding: ${(props: VSeparatorProps) => (props.small ? Spacing.Small : Spacing.Medium)};
-  display: block;
-  margin: 0;
+export const VSeparator = styled.div`
+  padding-top: ${(props: VSeparatorProps) => (props.small ? Spacing.Small : Spacing.Medium)};
 `;

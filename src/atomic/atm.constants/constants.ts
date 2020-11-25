@@ -1,5 +1,5 @@
 export enum Colors {
-  Primary = '#142850',
+  Primary = '#000000',
   Secondary = '#27496d',
   Acessory = '#00909e',
   Neutral = '#dae1e7',
@@ -30,15 +30,15 @@ export enum Spacing {
 }
 
 export enum BoxShadow {
-  Depht2 = '0 1px 2px, 0',
-  Depht6 = '0 3px 6px 1px',
-  Depht12 = '0 6px 12px 3px',
+  Depht2 = '0 2px 2px 0 rgba(0,0,0,0.14)',
+  Depht6 = '0 6px 10px 0 rgba(0,0,0,0.14)',
+  Depht12 = '0 12px 17px 2px rgba(0,0,0,0.14)',
 }
 
 export const Border = {
   Color: Colors.Primary,
   Width: '1px',
-  Radius: '4px',
+  Radius: '20px',
   RadiusLarge: '100px',
 };
 

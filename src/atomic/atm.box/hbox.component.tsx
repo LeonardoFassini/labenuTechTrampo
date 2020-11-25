@@ -8,11 +8,11 @@ interface HboxProps {
   noGrow: boolean;
 }
 
-export const Hbox: any = styled.div`
+export const Hbox: any = styled.div<HboxProps>`
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  ${(props: HboxProps) => (props.hAlign ? `justify-content: ${props.hAlign};` : '')}
+  ${(props) => (props.hAlign ? `justify-content: ${props.hAlign};` : '')}
 `;
 
 Hbox.Item = styled.div<HboxProps>`
