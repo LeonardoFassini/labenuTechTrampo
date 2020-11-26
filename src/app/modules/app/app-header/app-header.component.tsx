@@ -24,7 +24,7 @@ export const AppHeader: React.FC = () => {
       <Hbox>
         <Hbox.Separator />
         <Hbox.Item vAlign='center'>
-          <H1>Lista de Tarefas</H1>
+          <H1>Title</H1>
         </Hbox.Item>
         <Hbox.Item noGrow vAlign='center'>
           <Button kind={ButtonKind.Rounded} onClick={handleLogOut} loading={loading}>
