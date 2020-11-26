@@ -1,7 +1,6 @@
-This project was made to instuct how to do tests. Also, was used to learn webpack.
+This project was made to instruct the basics of creating a Front-end application from a design model.
+It was intended to create a basic structure to show how Atomic Design can be made.
 
 ## Running the app
 
 Open local: `yarn start:dev`
-Open tests: `yarn cypress:open`
-Run tests: `yarn cypress:run`
